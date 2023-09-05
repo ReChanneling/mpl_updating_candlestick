@@ -13,7 +13,7 @@ base_time : datetime = datetime.today()
 
 columns = ['date', 'open', 'high', 'low', 'close']
 df = pd.DataFrame(columns=columns)
-df.set_index('date')
+#df.set_index('date')
 
 fig, ax = plt.subplots()
 
@@ -36,7 +36,7 @@ def rand_candle():
                 'high' : [high],
                 'low' : [low] 
     })
-    df2.set_index('date')
+    #df2.set_index('date')
     df = pd.concat([df, df2])
 
 

@@ -1,4 +1,5 @@
 /Scripts
 /Lib
 /shre
+venv
 pyvenv.cfg
